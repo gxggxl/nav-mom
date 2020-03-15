@@ -1,48 +1,17 @@
-function setTime() {
-  var create_time = Math.round(
-    new Date(Date.UTC(2018, 1, 13, 10, 20, 0)).getTime() / 1000
-  );
-  var timestamp = Math.round(
-    (new Date().getTime() + 8 * 60 * 60 * 1000) / 1000
-  );
-  currentTime = secondToDate(timestamp - create_time);
-  currentTimeHtml =
-    currentTime[0] +
-    " 年 " +
-    currentTime[1] +
-    " 天 " +
-    currentTime[2] +
-    " 时 " +
-    currentTime[3] +
-    " 分 " +
-    currentTime[4] +
-    " 秒";
-  document.getElementById("htmer_time").innerHTML = currentTimeHtml;
+function show_runtime() {
+  window.setTimeout("show_runtime()", 1000);
+  X = new Date("3/5/2018 12:00:00");
+  Y = new Date();
+  T = Y.getTime() - X.getTime();
+  M = 24 * 60 * 60 * 1000;
+  a = T / M;
+  A = Math.floor(a);
+  b = (a - A) * 24;
+  B = Math.floor(b);
+  c = (b - B) * 60;
+  C = Math.floor((b - B) * 60);
+  D = Math.floor((c - C) * 60);
+  runtime_span.innerHTML =
+    "本站勉强运行: " + A + "天" + B + "小时" + C + "分" + D + "秒";
 }
-function secondToDate(second) {
-  if (!second) {
-    return 0;
-  }
-  var time = new Array(0, 0, 0, 0, 0);
-  if (second >= 365 * 24 * 3600) {
-    time[0] = parseInt(second / (365 * 24 * 3600));
-    second %= 365 * 24 * 3600;
-  }
-  if (second >= 24 * 3600) {
-    time[1] = parseInt(second / (24 * 3600));
-    second %= 24 * 3600;
-  }
-  if (second >= 3600) {
-    time[2] = parseInt(second / 3600);
-    second %= 3600;
-  }
-  if (second >= 60) {
-    time[3] = parseInt(second / 60);
-    second %= 60;
-  }
-  if (second > 0) {
-    time[4] = second;
-  }
-  return time;
-}
-setInterval(setTime, 1000);
+show_runtime();
