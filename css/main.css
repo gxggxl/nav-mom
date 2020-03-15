@@ -671,15 +671,17 @@ body.is-loading #main {
 /* Footer */
 
 #footer {
-  -moz-align-self: -moz-flex-end;
+  /* -moz-align-self: -moz-flex-end;
   -webkit-align-self: -webkit-flex-end;
   -ms-align-self: -ms-flex-end;
-  align-self: flex-end;
+  align-self: flex-end; */
   width: 100%;
-  padding: 1.5em 0 0 0;
-  color: rgba(255, 255, 255, 0.75);
+  padding: 1em;
+  color: rgba(0, 0, 0, 0.9);
   cursor: default;
   text-align: center;
+  background: #ffffffa8;
+  border-radius: 5px;
 }
 
 #footer .copyright {
