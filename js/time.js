@@ -1,6 +1,6 @@
 function setTime() {
   var create_time = Math.round(
-    new Date(Date.UTC(2016, 4, 13, 10, 20, 0)).getTime() / 1000
+    new Date(Date.UTC(2018, 1, 13, 10, 20, 0)).getTime() / 1000
   );
   var timestamp = Math.round(
     (new Date().getTime() + 8 * 60 * 60 * 1000) / 1000
