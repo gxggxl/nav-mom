@@ -1,0 +1,49 @@
+.momo {
+    font-style: normal;
+    font-weight: normal;
+    /* speak: none; */
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-animation: xintiao 1.33s ease-in-out infinite;
+    animation: xintiao 1.33s ease-in-out infinite
+}
+
+@-webkit-keyframes xintiao {
+    0% {
+        -webkit-transform: scale(1)
+    }
+
+    50% {
+        -webkit-transform: scale(.8)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes xintiao {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    50% {
+        -webkit-transform: scale(.8);
+        transform: scale(.8)
+    }
+
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
