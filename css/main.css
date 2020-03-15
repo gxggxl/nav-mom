@@ -105,7 +105,7 @@ body {
     url("https://cdn.mom1.cn/?mom=302");
   background-repeat: repeat, no-repeat, no-repeat;
   background-size: 100px 100px, cover, cover;
-  background-position: top left, center center, bottom centr;
+  background-position: top left, center center, bottom center;
   background-attachment: fixed, fixed, fixed;
 }
 
