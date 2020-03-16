@@ -93,16 +93,16 @@ body {
   background-color: #ffffff;
   background-image: url(""),
     -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)),
-    url("https://cdn.mom1.cn/?mom=302");
+    url("https://cdn.mom1.cn/ha/?mom=302");
   background-image: url(""),
     -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)),
-    url("https://cdn.mom1.cn/?mom=302");
+    url("https://cdn.mom1.cn/ha/?mom=302");
   background-image: url(""),
     -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)),
-    url("https://cdn.mom1.cn/?mom=302");
+    url("https://cdn.mom1.cn/ha/?mom=302");
   background-image: url(""),
     linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)),
-    url("https://cdn.mom1.cn/?mom=302");
+    url("https://cdn.mom1.cn/ha/?mom=302");
   background-repeat: repeat, no-repeat, no-repeat;
   background-size: 100px 100px, cover, cover;
   background-position: top left, center center, bottom center;
