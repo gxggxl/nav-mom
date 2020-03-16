@@ -671,10 +671,10 @@ body.is-loading #main {
 /* Footer */
 
 #footer {
-  /* -moz-align-self: -moz-flex-end;
+  -moz-align-self: -moz-flex-end;
   -webkit-align-self: -webkit-flex-end;
   -ms-align-self: -ms-flex-end;
-  align-self: flex-end; */
+  align-self: flex-end;
   width: 100%;
   padding: 1em;
   color: rgba(0, 0, 0, 0.9);
@@ -750,11 +750,11 @@ body.is-loading #main {
 body.is-ie #wrapper {
   height: 100%;
 }
-body {
-  cursor: url(https://ae01.alicdn.com/kf/H1983cf2b4b5b45f3a95f9cd50be5f9ebV.png),
+*{
+  cursor: url(../images/b.png),
     default;
 }
 a:hover {
-  cursor: url(https://ae01.alicdn.com/kf/H88647b1696564b9d880fdf741d728ec3a.png),
+  cursor: url(../images/a.png),
     pointer;
 }
