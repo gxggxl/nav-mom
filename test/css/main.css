@@ -295,7 +295,7 @@ hr {
 }
 
 .panel-cover__logo {
-	margin: 0px 0px 0px 20px;
+	margin: 0px auto;
 	margin-bottom: .2em;
 }
 
