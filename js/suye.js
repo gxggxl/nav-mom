@@ -12,8 +12,8 @@ jQuery(document).ready(function($) {
     ],
     totalFlakes: "90",
     zIndex: "999999",
-    maxSize: "28",
-    maxDuration: "20",
+    maxSize: "20",
+    maxDuration: "30",
     useFlakeTrans: false
   });
 });
