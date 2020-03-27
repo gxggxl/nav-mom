@@ -1,18 +1,12 @@
-@font-face {
+/* @font-face {
   font-family: "webfont_2";
   src: url("//at.alicdn.com/t/webfont_bar76uyhrpd.eot");
-  /* IE9*/
   src: url("//at.alicdn.com/t/webfont_bar76uyhrpd.eot?#iefix")
       format("embedded-opentype"),
-    /* IE6-IE8 */ url("//at.alicdn.com/t/webfont_bar76uyhrpd.woff")
-      format("woff"),
-    /* chrome、firefox */ url("//at.alicdn.com/t/webfont_bar76uyhrpd.ttf")
-      format("truetype"),
-    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-      url("//at.alicdn.com/t/webfont_bar76uyhrpd.svg#思源黑体") format("svg");
-  /* iOS 4.1- */
-}
-
+    url("//at.alicdn.com/t/webfont_bar76uyhrpd.woff") format("woff"),
+    url("//at.alicdn.com/t/webfont_bar76uyhrpd.ttf") format("truetype"),
+    url("//at.alicdn.com/t/webfont_bar76uyhrpd.svg#思源黑体") format("svg");
+} */
 .pln {
   color: #000;
 }
