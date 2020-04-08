@@ -6,7 +6,7 @@ function NewDate(str) {
   return date;
 }
 function showsectime() {
-  var birthDay = NewDate("2018-04-01");
+  var birthDay = NewDate("2018-04-10");
   var today = new Date();
   var timeold = today.getTime() - birthDay.getTime();
   var sectimeold = timeold / 1000;
