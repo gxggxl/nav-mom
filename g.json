@@ -1,0 +1,30 @@
+{
+    "configs": [
+        {
+            "password": "fyGTCmhn",
+            "remarks": "Aliyu-HK",
+            "reuse_port": false,
+            "reuse_session": true,
+            "server": "hk.gxggxl.cn",
+            "server_port": 443,
+            "session_ticket": false,
+            "sni": "",
+            "tcp_fast_open": false,
+            "verify_certificate": true,
+            "verify_hostname": true
+        },
+        {
+            "password": "rAZCVZmj",
+            "remarks": "QNUS",
+            "reuse_port": false,
+            "reuse_session": true,
+            "server": "xp.gxggxl.cn",
+            "server_port": 443,
+            "session_ticket": false,
+            "sni": "",
+            "tcp_fast_open": false,
+            "verify_certificate": true,
+            "verify_hostname": true
+        }
+    ]
+}

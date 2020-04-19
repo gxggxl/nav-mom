@@ -1,0 +1,16 @@
+[
+    {
+        "host": "hk.gxggxl.cn",
+        "password": "fyGTCmhn",
+        "port": 443,
+        "title": "Aliyu-HK",
+        "type": "Trojan"
+    },
+    {
+        "host": "xp.gxggxl.cn",
+        "password": "rAZCVZmj",
+        "port": 443,
+        "title": "QNUS",
+        "type": "Trojan"
+    }
+]
