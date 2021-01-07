@@ -1,4 +1,4 @@
 proxies:
-  - {name: "[Trojan] sql.scisys.top_trojan_ws", server: sql.scisys.top, port: 443, type: trojan, password: dd53de72-c4bc-6a17-5e07-172e781bb08f, sni: sql.scisys.top, skip-cert-verify: false}
-  - {name: "[VMess] sql.scisys.top_vmess_ws", server: sql.scisys.top, port: 443, type: vmess, uuid: dd53de72-c4bc-6a17-5e07-172e781bb08f, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /lkfaqvws, ws-headers: {Host: sql.scisys.top}}
-  - {name: "[VLess] sql.scisys.top_vmess_ws", server: sql.scisys.top, port: 443, type: vless, uuid: dd53de72-c4bc-6a17-5e07-172e781bb08f, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /lkfaqvws, ws-headers: {Host: sql.scisys.top}}
+  - {name: "[Trojan] sql.scisys.top_ws", server: sql.scisys.top, port: 443, type: trojan, password: dd53de72-c4bc-6a17-5e07-172e781bb08f, sni: sql.scisys.top, skip-cert-verify: false}
+  - {name: "[VMess] sql.scisys.top_ws", server: 104.16.84.109, port: 443, type: vmess, uuid: dd53de72-c4bc-6a17-5e07-172e781bb08f, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /lkfaqvws, ws-headers: {Host: sql.scisys.top}}
+  - {name: "[VLess] sql.scisys.top_ws", server: 104.16.84.109, port: 443, type: vless, uuid: dd53de72-c4bc-6a17-5e07-172e781bb08f, tls: true, skip-cert-verify: false, network: ws, ws-path: /lkfaqvws, ws-headers: {Host: sql.scisys.top}}
